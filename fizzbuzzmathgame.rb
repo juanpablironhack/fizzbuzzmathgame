@@ -4,10 +4,8 @@ def game(alumns)
 	end
 	elsif alumns%3==0 && alumns%5!=0  && alumns<=100
 		puts "Fizz,"
-	end
 	elsif alumns%3!=0 && alumns%5==0  && alumns<=100
 		puts "Buzz,"
-	end
 	else alumns%3!=0 && alumns%5!=0  && alumns<=100
 		puts "#{alumns},"
 	end
